@@ -53,4 +53,6 @@ kanban --no-open
 .specify/scripts/bash/kanban-sync.sh specs/001-xxx/tasks.md
 ```
 
+**公開URL**: [kounoike.github.io/speckit-preset-cline-kanban](https://kounoike.github.io/speckit-preset-cline-kanban)
+
 **ソースコード**: [github.com/kounoike/speckit-preset-cline-kanban](https://github.com/kounoike/speckit-preset-cline-kanban)
