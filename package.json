@@ -1,0 +1,21 @@
+{
+  "name": "speckit-preset-cline-kanban",
+  "version": "1.0.0",
+  "description": "SpecKit preset: tasks.md 生成時に cline/kanban へ自動登録する",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "bats tests/kanban-register/",
+    "test:register": "bats tests/kanban-register/test-register.bats",
+    "test:sync": "bats tests/kanban-register/test-sync.bats"
+  },
+  "keywords": ["speckit", "kanban", "cline", "preset"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "bats": "^1.13.0"
+  }
+}

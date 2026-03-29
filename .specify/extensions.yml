@@ -1,0 +1,17 @@
+hooks:
+  after_tasks:
+    - extension: cline-kanban
+      command: speckit.kanban-register
+      description: "tasks.md 生成後に cline/kanban へ自動登録する"
+      optional: true
+      enabled: true
+      prompt: |
+        tasks.md のすべての未完了タスクを cline/kanban に登録または更新してください。
+        以下のスクリプトを実行してください:
+
+        ```bash
+        .specify/scripts/bash/kanban-register.sh "$TASKS_FILE"
+        ```
+
+        - kanban サーバーが起動していない場合は警告を表示して続行してください
+        - 登録結果（作成件数・更新件数）をユーザーに報告してください
