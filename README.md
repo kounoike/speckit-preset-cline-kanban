@@ -1,5 +1,7 @@
 # speckit-preset-cline-kanban
 
+[![Deploy](https://github.com/kounoike/speckit-preset-cline-kanban/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/kounoike/speckit-preset-cline-kanban/actions/workflows/deploy-pages.yml)
+
 SpecKit の `/speckit.tasks` コマンドでタスクを生成した際に、
 [cline/kanban](https://github.com/cline/kanban) ボードへ自動登録する SpecKit preset。
 
