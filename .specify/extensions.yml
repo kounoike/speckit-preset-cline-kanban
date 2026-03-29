@@ -4,7 +4,7 @@ hooks:
       command: speckit.kanban-register
       description: "tasks.md 生成後に cline/kanban へ自動登録する"
       optional: true
-      enabled: true
+      enabled: false
       prompt: |
         tasks.md のすべての未完了タスクを cline/kanban に登録または更新してください。
         以下のスクリプトを実行してください:
